@@ -7,7 +7,7 @@ format:
     css: styles.css
     toc: true
 ---
-
+Imagine a map that tracks power plants around the world. This interactive tool would let you zoom in on specific regions and filter the view to see only certain types of energy generation, like solar, nuclear, or coal. By clicking on a plant, you could even explore details about the process used to create that energy, providing a deeper understanding of how different parts of the world meet their electricity needs. This kind of graph could be a valuable resource for researchers, policymakers, and anyone curious about the global energy landscape.
 ```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
 library(tidyverse)
 library(plotly)
@@ -17,7 +17,7 @@ library(jsonlite)
 
 ```{r data-processing, echo=FALSE}
 # Load and process data
-power_data <- read_csv("./data/global_power_plant_database.csv")
+power_data <- read_csv("./data/global_power_plant_database.csv",show_col_types=FALSE)
 
 # Convert data to JSON for use in JavaScript
 power_data_json <- jsonlite::toJSON(
