@@ -1,0 +1,15 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+
+*.Rproj
+aaa.qmd
+abcd.qmd
+about.qmd
+idk.qmd
+index.qmd
+
+*_site/
