@@ -11,5 +11,7 @@ abcd.qmd
 about.qmd
 idk.qmd
 index.qmd
+_publish.yml
 
 *_site/
+
