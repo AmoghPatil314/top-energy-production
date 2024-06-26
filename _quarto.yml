@@ -6,7 +6,7 @@ website:
   title: "Energy Production Analysis"
   navbar:
     left:
-      - href: test.qmd
+      - href: index.qmd
         text: Home
       - about.qmd
       - sources.qmd
